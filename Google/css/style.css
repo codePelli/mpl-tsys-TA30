@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#headerLeft {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+#headerRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+}
+
+#input {
+    width: 550px;
+    height: 25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+#google {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-color: white;
+    border-radius: 3px;
+    border: 0cap;
+}
+
+#anuncio {
+    padding-top: 20px;
+    font-size: small;
+    color: blue;
+    display: flex;
+    gap: 10px;
+}
+
+#labelDeal{
+    color: darkgoldenrod;
+}
+
+#idiomas {
+    padding-top: 20px;
+    font-size: 14px;
+    display: flex;
+}
+
+#lengua {
+    color: blue;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#footerTop {
+    margin-bottom: 10px;
+}
+
+#footerBot{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+#leftFooter, #midFooter, #rightFooter{
+    width: 100%;
+}
+
+#leftFooter{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+#midFooter{
+    text-align: center;
+}
+
+#rightFooter{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
