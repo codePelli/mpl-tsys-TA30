@@ -1,30 +1,31 @@
-body {
+body{
     margin: 0;
+    font: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
-#headerLeft {
+#headerLeft{
     display: flex;
     justify-content: flex-start;
     margin-right: 20px;
     gap: 10px;
 }
 
-#headerRight {
+#headerRight{
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
     gap: 15px;
 }
 
-#main {
+#main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,21 +33,41 @@ header {
     height: 88vh;
 }
 
-#input {
-    width: 550px;
+#inputDiv{
+    width: 500px;
     height: 25px;
     border-radius: 20px;
     border-style: solid;
     border-color: gray;
     border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#google {
+#searchIcon{
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+#input{
+    margin-top: 4px;
+    margin-left: 30px;
+    width: 400px;
+    height: 15px;
+    border-width: 0px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+#google{
     width: 300px;
     padding-bottom: 20px;
 }
 
-button {
+button{
     margin-top: 15px;
     padding: 8px;
     background-color: whitesmoke;
@@ -55,7 +76,7 @@ button {
     border: 0cap;
 }
 
-#anuncio {
+#anuncio{
     padding-top: 20px;
     font-size: small;
     color: blue;
@@ -67,23 +88,25 @@ button {
     color: darkgoldenrod;
 }
 
-#idiomas {
+#idiomas{
     padding-top: 20px;
     font-size: 14px;
     display: flex;
 }
 
-#lengua {
+#lengua{
     color: blue;
+    margin-left: 5px;
+
 }
 
-footer {
+footer{
     display: flex;
     padding: 10px;
     flex-direction: column;
 }
 
-#footerTop {
+#footerTop{
     margin-bottom: 10px;
 }
 
@@ -104,7 +127,14 @@ footer {
 }
 
 #midFooter{
+    display: flex;
     text-align: center;
+}
+
+#arrowRight{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
 }
 
 #rightFooter{

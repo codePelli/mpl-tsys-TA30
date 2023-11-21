@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Google de Marc Pellicer</title>
   </head>
-  <link href="https://unpkg.com/css.gg@2.0.0/icons/css/menu-grid-o.css" rel="stylesheet" >
+  <link href="https://unpkg.com/css.gg@2.0.0/icons/css/menu-grid-o.css" rel="stylesheet">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/user.css' rel='stylesheet'>
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/tag.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right-r.css' rel='stylesheet'>
   <body>
     <header>
       <div id="headerLeft">
@@ -26,7 +29,11 @@
     </header>
     <div id="main">
       <img src="img/google.png" alt="Google" id="google"/>
-      <input type="text" id="input" />
+      <div id="inputDiv">
+        <a><i class="gg-search" id = "searchIcon"></i></a>
+        <input type="text" id="input" />
+        <a><i class="gg-menu-grid-o"></i></a>
+      </div>
       <div id="buttons">
         <button>Buscar en Google</button>
         <button>Voy a tener suerte</button>
@@ -53,6 +60,7 @@
           <a>Cómo funciona la Búsqueda</a>
         </div>
         <div id="midFooter">
+          <a><i class="gg-arrow-right-r" id="arrowRight"></i></a>
           <a>Tres décadas de acción climática: descubre lo que estamos haciendo</a>
         </div>
         <div id="rightFooter">
